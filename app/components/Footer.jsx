@@ -20,7 +20,7 @@ function Footer() {
     <footer className='w-[90vw] md:w-full min-h-fit mx-auto flex flex-col py-6'>
         <div className="w-[85%] md:grid grid-cols-9 md:mx-auto mt-5 p-4 md:p-0 space-y-3 md:space-y-0 lg:space-x-6">
             <div className="col-span-2">
-                <Image src={'/Logo.svg'} alt="logo" width={138} height={32} className="w-24"/>
+                <Image src={'/logo.svg'} alt="logo" width={138} height={32} className="w-24"/>
             </div>
             <div className="grid grid-flow-row md:grid-flow-col col-span-7 space-y-4 md:space-y-0">
               <ListItem title="WHY PATHE?" items={whyPathe} />
